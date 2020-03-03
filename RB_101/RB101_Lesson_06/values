@@ -1,0 +1,26 @@
+
+[1mFrom:[0m /home/derek/Documents/Launch_School/RB_101/RB101_Lesson_06/Twenty_Ones.rb @ line 118 Object#calc_hand_value:
+
+    [1;34m115[0m: [32mdef[0m [1;34mcalc_hand_value[0m (cards) [1;34m# calcualtes the hand value[0m
+    [1;34m116[0m:    [1;34m# cards = [['H', '3'], ['S', 'Q'], ... ][0m
+    [1;34m117[0m:    values = cards.map { |card| card[[1;34m1[0m] }
+ => [1;34m118[0m: binding.pry
+    [1;34m119[0m:    sum = [1;34m0[0m
+    [1;34m120[0m:    values.each [32mdo[0m |value|
+    [1;34m121[0m:      [32mif[0m value == [31m[1;31m'[0m[31mA[1;31m'[0m[31m[0m
+    [1;34m122[0m:        sum += [1;34m11[0m
+    [1;34m123[0m:      [32melsif[0m value.to_i == [1;34m0[0m [1;34m# J, Q, K[0m
+    [1;34m124[0m:        sum += [1;34m10[0m
+    [1;34m125[0m:      [32melse[0m
+    [1;34m126[0m:        sum += value.to_i
+    [1;34m127[0m:      [32mend[0m
+    [1;34m128[0m:    [32mend[0m
+    [1;34m129[0m: 
+    [1;34m130[0m:    [1;34m# correct for Aces[0m
+    [1;34m131[0m:    values.select { |value| value == [31m[1;31m'[0m[31mA[1;31m'[0m[31m[0m }.count.times [32mdo[0m
+    [1;34m132[0m:      sum -= [1;34m10[0m [32mif[0m sum > [1;34m21[0m
+    [1;34m133[0m:    [32mend[0m
+    [1;34m134[0m:  
+    [1;34m135[0m:    sum
+    [1;34m136[0m: [32mend[0m
+

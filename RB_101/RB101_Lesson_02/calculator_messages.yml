@@ -1,0 +1,80 @@
+:en:
+ welcome: "Welcome to Calculator! Enter your name:" 
+ :b: "Make sure to use a valid name"
+ :c: "Hi"
+ :ca: "I hope you enjoy using the calculator"	
+ :d: "Please enter the first number"
+ :e: "Hmm---this does not look like a valid number"
+ :f: "Please enter the second number"
+ :g: "Thank you. What operation would you like to carry out?
+
+  (1) Addition 
+  
+  (2) Subtraction 
+
+  (3) Division 
+  
+  (4) Multiplication
+" 
+ :ga: "You entered"
+ :gb: "you must choose 1, 2, 3 or 4" 
+ :h: "the two numbers..."
+ :i: "The result is"
+ :j: "Would you like to perform another calculation (y/n)?"
+ :k: "Thank you"
+ :ka: "for using the Calculator!"
+
+
+
+:sw:
+ welcome: "Välkommen till Calculator! Ange ditt namn:" 
+ :b: "Se till att använda ett giltigt namn"
+ :c: "Hej"
+ :ca: "Jag hoppas att du tycker om att använda kalkylatorn"
+ :d: "Ange det första numret"
+ :e: "Hmm --- det här ser inte ut som ett giltigt nummer"
+ :f: "Ange det andra numret"
+ :g: "Tack Vilken operation skulle du vilja utföra?
+
+   (1) Tillägg
+  
+   (2) Subtraktion
+
+   (3) Division
+  
+   (4) Multiplikation
+" 
+ :ga: "Du gick med"
+ :gb: "Du måste välja 1, 2, 3 eller 4" 
+ :h: "de två siffrorna ..."
+ :i: "Resultatet är"
+ :j: "Vill du göra en annan beräkning (y för ja någon annan nyckel för nej)?"
+ :k: "Tack"
+ :ka: "för att använda miniräknare!"
+
+:es:
+ welcome: "Bienvenido a la calculadora! Introduzca su nombre:" 
+ :b: "Asegúrate de usar un nombre válido"
+ :c: "Hola"
+ :ca: "Espero que disfrutes usando la calculadora"	
+ :d: "Por favor ingrese el primer número"
+ :e: "Hmm --- esto no parece un número válido"
+ :f: "Por favor ingrese el segundo número"
+ :g: "Gracias ¿Qué operación te gustaría realizar
+
+   (1) Suma
+   
+   (2) Resta
+
+   (3) División
+
+   (4) Multiplicación
+" 
+ :ga: "Entraste"
+ :gb: "debes elegir 1, 2, 3 o 4" 
+ :h: "los dos números ..."
+ :i: "El resultado es"
+ :j: "¿Desea realizar otro cálculo (y para sí cualquier otra clave para no)"
+ :k: "Gracias"
+ :ka: "para usar la calculadora!"
+

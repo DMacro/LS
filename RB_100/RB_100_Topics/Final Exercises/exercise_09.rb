@@ -1,0 +1,17 @@
+h = {a:1, b:2, c:3, d:4}
+
+puts h[:b] # gets the value of b
+
+h[:e] = 5
+
+puts h
+
+h.each do |k,v|
+  if v < 4
+    h.delete(k)
+  end
+
+
+
+end
+puts h

@@ -1,0 +1,33 @@
+keyword	meaning
+START	start of the program
+SET	sets a variable we can use for later
+GET	retrieve input from user
+PRINT	displays output to user
+READ	retrieve value from variable
+IF / ELSE IF / ELSE	show conditional branches in logic
+WHILE	show looping logic
+END	end of the program
+
+
+a method that returns the sum of two integers
+
+START
+
+SET value_01 and GET from user and convert to integer
+SET value_02 and GET from user to integer
+
+PRINT the sum of value_01 and value_02
+
+a method that takes an array of strings, and returns a string that is all those strings concatenated together
+
+START
+
+SET iterator = 1
+SET saved_number = value within numbers collection at space 1
+
+WHILE iterator <= length of numbers
+WHILE 
+
+a method that takes an array of integers, and returns a new array with every other element
+
+SET
